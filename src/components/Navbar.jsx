@@ -43,7 +43,7 @@ function Navbar() {
   <h1 className='text-3xl font-bold primary-color ml-4 font-cursive '> Aurpit</h1>
   <ul className="hidden sm:flex text-3xl font-cursive  cursor-pointer">
   {navLink.map(({id,link})=>(
-  <li key={id}className='p-2 rounded-lg px-10 hover:scale-100'> <Link to={link} smooth duration={100}>{link}</Link> </li>
+  <li key={id}className='p-2 rounded-lg px-10 hover:scale-95'> <Link to={link} smooth duration={100}>{link}</Link> </li>
 
   ))
     }
