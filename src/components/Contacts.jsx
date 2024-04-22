@@ -3,7 +3,7 @@ import { AiOutlineArrowUp } from "react-icons/ai"
 import {Link} from 'react-scroll'
 const Contacts = () => {
   return (
-    <div name='Contact' className='  max-w-screen-[100vw] max-h-screen bg-gradient-to-b from-black to-gray-600'>
+    <div name='Contact' className='md:min-h-screen  max-w-screen-[100vw] max-h-screen bg-gradient-to-b from-black to-gray-600'>
       <div className='flex  items-center  justify-center text-white flex-col py-8 text-3xl'> Contact me</div>
       <div className=' flex flex-col justify-items-center items-center'>
 

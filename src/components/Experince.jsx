@@ -79,7 +79,7 @@ const Experince = () => {
         }
     ]
   return (
-    <div className='max-w-full max-h-screen bg-gradient-to-b from-black to-gray-600 text white  ' name="Experince">
+    <div className=' md:min-h-screen max-w-full max-h-screen bg-gradient-to-b from-black to-gray-600 text white  ' name="Experince">
       
       <div className=' flex justify-center  text-white text-3xl py-4 ' >
      Experince In

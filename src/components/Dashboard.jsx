@@ -40,7 +40,7 @@ function Dashboard() {
   },
 ]
   return (
-    <div name="Home" className='  max-h-screen w-[100vw] bg-gradient-to-b from-black to-gray-700 text-white '>   
+    <div name="Home" className=' md:min-h-screen max-h-screen w-[100vw] bg-gradient-to-b from-black to-gray-700 text-white '>   
     <div className='  min-w-[100vw ]sm:max-w-screen-lg mx-auto flex flex-col items-center  justify-end md:justify-end md:items-center   h-60   px-3  text-4xl space-x-2 ' >
       
 

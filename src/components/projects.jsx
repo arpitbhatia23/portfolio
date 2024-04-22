@@ -36,7 +36,7 @@ const Projects = () => {
 
 ]
   return (
-  <div className='max-w-screen-[100vw] max-h-screen bg-gradient-to-b from-black to-gray-600'>
+  <div className=' md:min-h-screen max-w-screen-[100vw] max-h-screen bg-gradient-to-b from-black to-gray-600'>
 <div className=' text-white text-3xl mb-3 h-20 flex items-center justify-center'> Projects</div>
     <div name="Projects" className='  justify-items-center items-center   grid grid-cols-2   space-x-0 md:space-x-20  md:flex  md:justify-center '>
 
