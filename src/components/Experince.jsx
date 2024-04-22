@@ -84,7 +84,7 @@ const Experince = () => {
       <div className=' flex justify-center  text-white text-3xl py-4 ' >
      Experince In
         </div>
-      <div className=' grid grid-cols-3 gap-4 justify-items-center items-center ' >
+      <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
        
        
         {

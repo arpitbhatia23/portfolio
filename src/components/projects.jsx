@@ -41,7 +41,7 @@ const Projects = () => {
     <div name="Projects" className='  justify-items-center items-center   grid grid-cols-2   space-x-0 md:space-x-20  md:flex  md:justify-center '>
 
 {projects.map(({id,link,image,projectname})=>(
-  <div key={id} className=' border-2 border-orange-600  gap-3 my-4 w-40 h-44  rounded-xl grid   items-end justify-items-center  md:h-64 md:w-60 shadow-xl shadow-orange-600  '>
+  <div key={id} className=' border-2 border-orange-600  gap-3 my-4 w-40 h-44  rounded-xl grid  pb-4 items-end justify-items-center  md:h-64 md:w-60 shadow-xl shadow-orange-600  '>
     <a href={link}><img src={image} className='w-40  md:w-60    ' alt="" /></a> 
     <p className='text-white'>{projectname}</p>
      </div>
