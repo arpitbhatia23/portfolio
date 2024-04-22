@@ -6,7 +6,8 @@ import bootstrap from '../assets/bootstrap.png'
 import js from '../assets/js.png'
 import react from '../assets/react.png'
 import github from'../assets/github.png'
-
+import redux from '../assets/redux.png'
+import git from '../assets/git.png'
 const Experince = () => {
     const tech=[
         {
@@ -65,9 +66,20 @@ const Experince = () => {
             className:"shadow-white shadow-xl border-white border-2 rounded-xl",
 
         },
+        {
+            id:8,
+            image:redux,
+            text:'redux ',
+            className:"shadow-purple-600 shadow-xl border-purple-600 border-2 rounded-xl",
+        }, {
+            id:9,
+            image: git,
+            text:'git',
+            className:"shadow-orange-600 shadow-xl border-orange-600 border-2 rounded-xl",
+        }
     ]
   return (
-    <div className='max-w-full h-screen bg-gradient-to-b from-black to-gray-600 text white  ' name="Experince">
+    <div className='max-w-full max-h-screen bg-gradient-to-b from-black to-gray-600 text white  ' name="Experince">
       
       <div className=' flex justify-center  text-white text-3xl py-4 ' >
      Experince In
