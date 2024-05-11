@@ -10,7 +10,7 @@ const Contacts = () => {
 <form action="https://api.web3forms.com/submit" method='Post' className=' text-white flex flex-col focus:outline-none justify-center items-center  '>
 <input type="hidden" name="access_key" value="e632fd9c-4503-482a-bf46-9f3e5606d4fd"/>
 <input type="text" name='name' placeholder=' enter your name ' className='bg-transparent border-2 rounded-md py-2 w-2/3 md:w-96' required />
-<input type="tel" name='tel' placeholder=' enter your phone number  ' className='bg-transparent py-2 border-2 rounded-md my-3 w-2/3 md:w-96'minLength={10} maxLength={10}required/>
+<input type="tel" name='tel' placeholder=' enter your phone number  ' className='bg-transparent py-2 border-2 rounded-md my-3 w-2/3 md:w-96'minLength={10} maxLength={10} pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
 
 <input type="email" name='email' placeholder=' enter your email  ' className='bg-transparent py-2 border-2 rounded-md my-3 w-2/3 md:w-96' required/>
 <textarea name=" textarea" cols="50" rows="10" className=' bg-transparent py-2 border-2 rounded-md  w-2/3 md:w-96' placeholder='  enter your masseage'></textarea>
