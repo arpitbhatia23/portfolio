@@ -89,7 +89,7 @@ const Experince = () => {
        
         {
             tech.map(({id,image ,className,text})=>(
-                <div key={id}className={`${className} hover:scale-95 w-20 md:w-32  hover:scale-90  rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3`}>
+                <div key={id}className={`${className}  w-20 md:w-32  hover:skew-x-12 hover:scale-125 transform-gpu hover:translate-x-4  rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3`}>
                     <img src={image} alt="" className='w-20 rounded-2xl'/>
                     <p className='ttext-center text-white'>{text}</p>
 

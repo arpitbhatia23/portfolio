@@ -3,7 +3,7 @@ import profile from '../assets/profile.jpg'
 
 function About() {
   return (
-    <div name="About" className='  max-h-screen md:min-h-screen w-[100vw] bg-gradient-to-b from-black to-gray-700 text-white '>   
+    <div name="About" className=' flex justify-center items-center max-h-screen md:min-h-screen w-[100vw] bg-gradient-to-b from-black to-gray-700 text-white '>   
 
     <div className='flex flex-col md:flex-row  w-full items-center justify-center gap-x-[15px] h-full pb-4'> 
       

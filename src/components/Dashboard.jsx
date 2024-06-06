@@ -80,7 +80,7 @@ Hi my name is Aurpit i'm a frontend devloper
 
    </div>
 <div className='w-full  inline-flex  justify-center mt-5'>
-   <button className='bg-fuchsia-700 rounded-lg px-6 py-2 hover:bg-green-600 hover:scale-95 outline outline-offset-2 outline-1 hover:outline-red-600 '> <a href="RESUME.pdf" download='resume.pdf'>resume <span >  
+   <button className='bg-fuchsia-700 rounded-lg px-6 py-2 hover:bg-green-600 hover:scale-95 outline outline-offset-2 outline-1 hover:outline-red-600 '> <a href="Aurpit.docx" download='Aurpit.docx'>resume <span >  
       {/* <AiOutlineRight/>  */}
 </span> </a>  
   

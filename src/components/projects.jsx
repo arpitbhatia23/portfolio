@@ -4,6 +4,7 @@ import reactweather from'../assets/reactWeather.png'
 import weather from'../assets/weather.png'
 import currency from'../assets/currency.png'
 import textutilies from'../assets/textutilies.png'
+import image from "../assets/image.png"
 
 const Projects = () => {
   const projects=[
@@ -32,6 +33,13 @@ const Projects = () => {
     projectname:'textutilies',
 
   },
+  {
+    id:5, 
+    link:"https://anonmyus-instaviewers.vercel.app/",
+    image:image,
+    projectname:'instaviewer',
+
+  },
 
 
 ]
@@ -40,11 +48,11 @@ const Projects = () => {
 <div className=' text-white text-3xl mb-3 h-20 flex items-center justify-center'> Projects</div>
     <div name="Projects" className='  justify-items-center items-center   grid grid-cols-2   space-x-0 md:space-x-20  md:flex  md:justify-center '>
 
-{projects.map(({id,link,image,projectname})=>(
+{projects.map(({id,link,image,projectname})=>(<a href={link}>
   <div key={id} className=' border-2 border-orange-600  gap-3 my-4 w-40 h-44  rounded-xl grid  pb-4 items-end justify-items-center  md:h-64 md:w-60 shadow-xl shadow-orange-600  '>
-    <a href={link}><img src={image} className='w-40  md:w-60    ' alt="" /></a> 
+    <img src={image} className='w-40  md:w-60    ' alt="" /> 
     <p className='text-white'>{projectname}</p>
-     </div>
+     </div></a>
 ))
 
 }
