@@ -9,6 +9,10 @@ import github from'../assets/github.png'
 import redux from '../assets/redux.png'
 import git from '../assets/git.png'
 import {Tilt} from 'react-tilt'
+import mongoodb from '../assets/mongo-db.png'
+import express from '../assets/express-js.png'
+import node from '../assets/node.png'
+
 const Experince = () => {
     const tech=[
         {
@@ -77,23 +81,36 @@ const Experince = () => {
             image: git,
             text:'git',
             className:"shadow-orange-600 shadow-xl border-orange-600 border-2 rounded-xl",
+        },
+        {
+            id:10,
+            image:mongoodb,
+            text:"mongodb"
+        },
+        {
+            id:11,
+            image:node,
+            text:"Node.js"
+        },
+        {
+            id:13,
+            image:express,
+            text:"express.js"
         }
     ]
   return (
-    <div className=' md:min-h-screen max-w-full max-h-screen bg-gradient-to-b from-black to-gray-600 text white  ' name="Experince">
+    <div className='  w-[100vw] max-h-screen md:min-h-screen bg-diagonal-gradient text-white' name="Experince">
       
       <div className=' flex justify-center  text-white text-3xl py-4 ' >
      Experince In
         </div>
       <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
-       
-       
         {
-            tech.map(({id,image ,className,text})=>(
+            tech.map(({id,image ,text})=>(
                 <Tilt key={id} >
-                <div className={`${className}  w-20 md:w-32    rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3`}>
-                    <img src={image} alt="" className='w-20 rounded-2xl'/>
-                    <p className='ttext-center text-white'>{text}</p>
+                <div className={`  w-20 md:w-48   rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3 animate-neon`}>
+                    <img src={image} alt="" className='w-3/6 rounded-sm'/>
+                    <p className='text-center text-white'>{text}</p>
 
                 </div>
                 </Tilt>

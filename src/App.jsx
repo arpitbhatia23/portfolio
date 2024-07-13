@@ -10,7 +10,7 @@ import Projects from './components/projects'
 function App() {
   
   return (
-    <>
+    <div className='bg-diagonal-gradient'>
      <Navbar/>
      <Dashboard/>
      <About/>
@@ -18,7 +18,7 @@ function App() {
      <Experince/>
      <Contacts/>
      <Footer/>
-    </>
+    </div>
   )
 }
 

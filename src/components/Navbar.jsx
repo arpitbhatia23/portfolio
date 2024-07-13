@@ -15,7 +15,7 @@ function Navbar() {
   },
   {
     id:3,
-    link:'Projects',
+    link:'project',
   },
 
     {
@@ -51,10 +51,10 @@ function Navbar() {
     <div onClick={handleNav} className='block  md:hidden  absolute right-4  top-3.5   '>
     {nav ? <AiOutlineClose size={30} />:<AiOutlineMenu size={30}/>}
   </div>
-<div className={nav ? 'flex  absolute   right-0 top-16   ease-in-out duration-1000':'fixed right-[-200%]'}>
+<div className={nav ? 'flex  absolute font-cursive   right-0 top-16   ease-in-out duration-1000':'fixed right-[-200%]'}>
   <ul className=" p-8 text-2xl">
   {navLink.map(({id,link})=>(
-  <li key={id}className='p-5 text-white'> <Link to={link} smooth duration={500}>{link}</Link></li>
+  <li key={id}className='py-8 '> <Link to={link} smooth duration={500}>{link}</Link></li>
 
   ))
     }

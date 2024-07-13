@@ -46,25 +46,31 @@ const Projects = () => {
 
 ]
   return (
-  <div className=' md:min-h-screen min-w-screen min-h-screen bg-gradient-to-b from-black to-gray-600'>
-<div className=' text-white text-3xl mb-3 h-20 flex items-center justify-center'> Projects</div>
-    <div name="Projects" className='  justify-items-center items-center   grid grid-cols-2   gap-x-2 gap-y-7 md:space-x-20  md:flex md:grid-cols-4  md:justify-items-center '>
+    <div className=' md:min-h-screen w-[100vw] max-h-screen bg-diagonal-gradient text white  ' name="project">
+      
+    <div className=' flex justify-center  text-white text-3xl py-4 ' >
+   Experince In
+      </div>
+    <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
+     
+     
+      {
+          projects.map(({id,image ,className,projectname})=>(
+              <Tilt key={id} >
+              <div className={` w-24 px-6 md:w-80   rounded-xl   flex flex-col items-center justify-items-center py-8  animate-neon`}>
+                  <img src={image} alt="" className=''/>
+                  <p className='text-center text-white text-sm'>{projectname}</p>
 
-{projects.map(({id,link,image,projectname})=>(
-  <Tilt  key={id}>
-  <a href={link}>
-  <div className='border border-orange-500 shadow-md shadow-orange-500 px-7 w-5/6 h-5/6 py-4 rounded-xl'>
-    <img src={image} className='w-5/6    ' alt="" /> 
-    <p className='text-white'>{projectname}</p>
-     </div></a>
-     </Tilt>
-))
+              </div>
+              </Tilt>
+            
+          ))
+      }
 
-}
+     </div>
+ 
+  </div>
 
-
-</div>
-</div>
   )
 }
 

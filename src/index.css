@@ -7,3 +7,8 @@
 @layer base{
     html{font-family: 'Raleway',sans-serif}
 }
+@layer utilities {
+    .bg-diagonal-gradient {
+      background: linear-gradient(145deg, #000000, #050d62, #660299);
+    }
+  }
