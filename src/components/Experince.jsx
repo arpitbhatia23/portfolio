@@ -108,7 +108,7 @@ const Experince = () => {
         {
             tech.map(({id,image ,text})=>(
                 <Tilt key={id} >
-                <div className={`  w-20 md:w-48   rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3 animate-neon`}>
+                <div className={`  w-20 md:w-40   rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3 animate-neon`}>
                     <img src={image} alt="" className='w-3/6 rounded-sm'/>
                     <p className='text-center text-white'>{text}</p>
 
