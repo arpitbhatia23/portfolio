@@ -12,15 +12,20 @@ function About() {
 <p className='text-3xl  text-center md:text-center'>About</p>
 <br/>
 
-I am a passionate frontend developer with   experience of building user-friendly and visually appealing applications. My expertise lies in frontend development, where I specialize in creating seamless user experiences and crafting elegant interfaces.
+I am a passionate MERN stack developer with experience in building user-friendly and visually appealing applications.<br/>
+ My expertise lies in creating seamless user experiences and crafting elegant interfaces using the MERN stack.
 
-Skills
-Proficient in HTML, CSS, and JavaScript
-Experience with frontend frameworks such as React.js 
-Strong understanding of responsive design principles
-Knowledgeable in UX/UI design concepts and best practices
-Familiarity with version control systems like Git
-Ability to collaborate effectively in cross-functional teams</p>
+Skills:
+<ol className="list-disc list-inside">
+ <li>Proficient in HTML, CSS, and JavaScript</li>
+<li>Experience with frontend frameworks such as React.js</li>
+<li>Strong understanding of responsive design principles</li>
+<li>Familiarity with version control systems like Git</li>
+<li>Ability to collaborate effectively in cross-functional teams</li>
+<li>Experience with backend development using Node.js and Express.js</li>
+<li>Proficient in working with MongoDB for database management</li>
+</ol>
+</p>
     </div>
     </div>
   )

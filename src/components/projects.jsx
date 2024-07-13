@@ -49,7 +49,7 @@ const Projects = () => {
     <div className=' md:min-h-screen w-[100vw] max-h-screen bg-diagonal-gradient text white  ' name="project">
       
     <div className=' flex justify-center  text-white text-3xl py-4 ' >
-   Experince In
+Projects
       </div>
     <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
      

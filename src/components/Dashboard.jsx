@@ -61,7 +61,7 @@ function Dashboard() {
 
 </div>
 <div className='flex flex-cols items-center ml-2 md:ml-0 '> 
-<p className='text-center w-full'>
+<p className='text-center w-full text-xl'>
 
 Hi my name is Aurpit i'm a frontend devloper 
 
