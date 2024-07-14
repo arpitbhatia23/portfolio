@@ -46,7 +46,7 @@ const Projects = () => {
 
 ]
   return (
-    <div className=' md:min-h-screen w-[100vw] max-h-screen bg-diagonal-gradient text white  ' name="project">
+    <div className=' md:min-h-screen w-[100vw] min-h-screen bg-diagonal-gradient text white  ' name="project">
       
     <div className=' flex justify-center  text-white text-3xl py-4 ' >
 Projects
@@ -57,7 +57,7 @@ Projects
       {
           projects.map(({id,image ,className,projectname})=>(
               <Tilt key={id} >
-              <div className={` w-24 px-6 md:w-80   rounded-xl   flex flex-col items-center justify-items-center py-8  animate-neon`}>
+              <div className={` w-24 px-6 md:w-64   rounded-xl   flex flex-col items-center justify-items-center py-8  animate-neon`}>
                   <img src={image} alt="" className=''/>
                   <p className='text-center text-white text-sm'>{projectname}</p>
 

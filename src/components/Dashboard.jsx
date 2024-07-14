@@ -42,18 +42,19 @@ function Dashboard() {
 ]
   return (
    
-    <div name="Home" className=' md:min-h-screen max-h-screen  w-[100vw] bg-diagonal-gradient text-white '>   
+    <div name="Home" className=' md:min-h-screen min-h-screen  w-[100vw] bg-diagonal-gradient text-white '>   
     <div className='  min-w-[100vw ]sm:max-w-screen-lg mx-auto flex flex-col items-center  justify-end md:justify-end md:items-center   h-60   px-3  text-4xl space-x-2 ' >
       
 
     <p>I'm a </p> 
          <TypeAnimation 
    sequence={[
-    '  Frontend Devloper',3000,
-    '  Web Designer',3000,
+    'MERN STACK DEVELOPER',3000,
+    'WEB DEVELOPER',3000,
+  
    ]}
    wrapper='div'
-   speed={50}
+   speed={60}
    repeat={Infinity}
    cursor={true}/>
    <br/>
@@ -63,7 +64,7 @@ function Dashboard() {
 <div className='flex flex-cols items-center ml-2 md:ml-0 '> 
 <p className='text-center w-full text-xl'>
 
-Hi my name is Aurpit i'm a frontend devloper 
+Hi my name is Aurpit i'm a MERN Stack Developer
 
 
     currently i love to work on web application using technologies like

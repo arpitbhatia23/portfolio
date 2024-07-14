@@ -17,7 +17,6 @@ function App() {
      <Projects/>
      <Experince/>
      <Contacts/>
-     {/* <Footer/> */}
     </div>
   )
 }

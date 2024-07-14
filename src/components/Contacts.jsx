@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiOutlineArrowUp } from "react-icons/ai"
 import {Link} from 'react-scroll'
+import Footer from './Footer'
 const Contacts = () => {
   return (
     <div name='Contact' className='md:h-[100vh]  w-[100vw] min-h-screen bg-diagonal-gradient'>
@@ -24,7 +25,14 @@ const Contacts = () => {
       <AiOutlineArrowUp/>
     </div>
     </Link>  
+
+
+
+
+
 </div>
+<Footer/>
+
 </div>
 
   )
