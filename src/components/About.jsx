@@ -6,7 +6,7 @@ function About() {
     <div name="About" className=' flex justify-center items-center min-h-screen md:min-h-screen w-[100vw]  text-white bg-diagonal-gradient'>   
 
     <div className='flex flex-col md:flex-row  w-full items-center justify-center gap-x-[15px] h-full '> 
-      <div className='flex w-full  mt-8 md:mt-0 md:w-[50%] justify-center'><img src={profile} alt='' className='w-64 md:w-[100%] h-64 md:h-screen  rounded-full md:rounded-md  animate-neon'/>
+      <div className='flex w-full  mt-8 md:mt-0 md:w-[50%] justify-center'><img src={profile} alt='' className='w-64 md:w-[100%] h-64 md:h-[99vh]  rounded-full md:rounded-md  animate-neon'/>
       </div>
 <p className='ml-1 md:ml-0'>
 <p className='text-3xl  text-center md:text-center'>About</p>

@@ -23,10 +23,13 @@ function Navbar() {
       link:'Experince',
   
     },
-
+{
+  id:5,
+  link:"certificates"
+},
   
   {
-    id:5,
+    id:6,
     link:'Contact',
 
   },
