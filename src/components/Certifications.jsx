@@ -4,7 +4,7 @@ const Certifications = () => {
     const certificate=[
         {
             id:1,
-            image
+            
         }
     ]
   return (
