@@ -99,17 +99,18 @@ const Experince = () => {
         }
     ]
   return (
-    <div className='  w-[100vw] max-h-screen md:min-h-screen bg-diagonal-gradient text-white' name="Experince">
+    <div className='  w-[100vw]  bg-diagonal-gradient text-white' name="Experince">
       
-      <div className=' flex justify-center  text-white text-3xl py-4 ' >
-     Experince In
+      <div className=' flex justify-center  text-white text-3xl py-4  font-cursive' >
+     skills
         </div>
-      <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
+        <div className='flex justify-center'>
+      <div className=' grid grid-cols-3 md:grid-cols-6  gap-x-14 gap-y-8 justify-items-center  items-center py-8' >
         {
             tech.map(({id,image ,text})=>(
                 <Tilt key={id} >
-                <div className={`  w-20 md:w-40   rounded-xl   flex flex-col items-center justify-items-center py-4 px-4 my-3 animate-neon`}>
-                    <img src={image} alt="" className='w-3/6 rounded-sm'/>
+                <div className={`rounded-xl   flex flex-col items-center justify-center py-3 animate-neon`}>
+                    <img src={image} alt="" className='rounded-xl h-32 w-56 px-2'/>
                     <p className='text-center text-white'>{text}</p>
 
                 </div>
@@ -117,7 +118,7 @@ const Experince = () => {
               
             ))
         }
-
+</div>
        </div>
    
     </div>

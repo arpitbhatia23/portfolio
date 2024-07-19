@@ -24,6 +24,7 @@ export default {
         neon: 'neon 1s linear infinite',
         move: 'move 1s linear infinite',
       },
+    
     },
     
       

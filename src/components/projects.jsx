@@ -46,19 +46,20 @@ const Projects = () => {
 
 ]
   return (
-    <div className=' md:min-h-screen w-[100vw] min-h-screen bg-diagonal-gradient text white  ' name="project">
+    <div className=' md:min-h-screen w-[100vw] min-h-screen bg-diagonal-gradient text white  font-cursive ' name="project">
       
-    <div className=' flex justify-center  text-white text-3xl py-4 ' >
+    <div className=' flex justify-center  text-white text-3xl py-4 font-cursive ' >
 Projects
       </div>
-    <div className=' grid grid-cols-3 gap-4 justify-items-center pb-4 items-center ' >
+      <div className='flex justify-center items-start'>
+    <div className=' grid  grid-cols-2 md:grid-cols-4 gap-x-11 gap-y-8 justify-items-center pb-4 items-center ' >
      
      
       {
           projects.map(({id,image ,className,projectname})=>(
               <Tilt key={id} >
-              <div className={` w-24 px-6 md:w-64   rounded-xl   flex flex-col items-center justify-items-center py-8  animate-neon`}>
-                  <img src={image} alt="" className=''/>
+              <div className={``}>
+                  <img src={image} alt="" className=' rounded-xl h-52 w-72 animate-neon'/>
                   <p className='text-center text-white text-sm'>{projectname}</p>
 
               </div>
@@ -67,6 +68,7 @@ Projects
           ))
       }
 
+     </div>
      </div>
  
   </div>

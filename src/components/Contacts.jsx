@@ -19,7 +19,7 @@ const Contacts = () => {
      </form>
 
       </div>
-      <div className='flex  justify-center mt-6 py-8'>
+      <div className='flex  justify-center mt-6 py-16'>
   <Link to="Home" smooth duration={700}>
       <div className=' h-8 w-8 animate-bounce text-white bg-indigo-700 px-2 py-2 rounded-full  '>  
       <AiOutlineArrowUp/>
