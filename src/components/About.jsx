@@ -8,8 +8,8 @@ function About() {
     <div className='flex flex-col md:flex-row  w-full items-start justify-center gap-x-[15px] h-full '> 
       <div className='flex w-full  mt-8 md:mt-0 md:w-[50%] justify-center'><img src={profile} alt='' className='w-64 md:w-[100%] h-64 md:h-[99vh]  rounded-full md:rounded-md  animate-neon'/>
       </div>
-<p className='ml-1 md:ml-0 font-cursive text-2xl'>
-<p className='text-3xl  text-center md:text-center font-cursive py-4'>About</p>
+<p className='ml-1 md:ml-0  text-2xl'>
+<p className='text-3xl  text-center md:text-center  py-4'>About</p>
 <br/>
 
 I am a passionate MERN stack developer with experience in building user-friendly and visually appealing applications.<br/>

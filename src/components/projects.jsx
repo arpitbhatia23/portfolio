@@ -48,7 +48,7 @@ const Projects = () => {
   return (
     <div className=' md:min-h-screen w-[100vw] min-h-screen bg-diagonal-gradient text white  font-cursive ' name="project">
       
-    <div className=' flex justify-center  text-white text-3xl py-4 font-cursive ' >
+    <div className=' flex justify-center  text-white text-3xl py-4  ' >
 Projects
       </div>
       <div className='flex justify-center items-start'>

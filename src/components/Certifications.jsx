@@ -44,7 +44,7 @@ image:mern
     ]
   return (
     <div className=' w-[100vw] min-h-screen md:min-h-screen bg-diagonal-gradient text-white ' name="certificates">
-     <div className='text-center text-2xl py-8 font-cursive'>
+     <div className='text-center text-2xl py-8 '>
         Certificates
      </div>
      <div className='flex justify-center items-center gap-5 pb-8'>
