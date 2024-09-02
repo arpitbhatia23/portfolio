@@ -43,7 +43,7 @@ function Dashboard() {
   return (
    
     <div name="Home" className=' md:min-h-screen min-h-screen  w-[100vw] bg-diagonal-gradient text-white  '>   
-    <div className='  min-w-[100vw ]sm:max-w-screen-lg mx-auto flex flex-col items-center  justify-end md:justify-end md:items-center   h-60   px-3  text-3xl space-x-2 ' >
+    <div className='  min-w-[100vw ]sm:max-w-screen-lg mx-auto flex flex-col items-center  justify-end md:justify-end md:items-center   h-60   px-3  text-2xl sm:text-3xl space-x-2 ' >
       
 
     <p>I'm a </p> 
