@@ -105,7 +105,7 @@ const Experince = () => {
      skills
         </div>
         <div className='flex justify-center'>
-      <div className=' grid grid-cols-3 md:grid-cols-6  gap-x-14 gap-y-8 justify-items-center  items-center py-8' >
+      <div className=' grid grid-cols-3 md:grid-cols-4  gap-x-14 gap-y-8 justify-items-center  items-center py-8' >
         {
             tech.map(({id,image ,text})=>(
                 <Tilt key={id} >
