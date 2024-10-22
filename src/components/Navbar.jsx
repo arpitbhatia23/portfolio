@@ -42,7 +42,7 @@ function Navbar() {
    
   
 <>
-<div className='fixed bg-indigo-950 text-white h-16  w-full    flex justify-between items-center z-[1000] '>
+<div className='fixed bg-indigo-950 text-white h-16  w-[100vw]     flex justify-between items-center z-[1000] '>
   <h1 className='text-3xl font-bold primary-color ml-4 font-cursive '> Aurpit</h1>
   <ul className="hidden md:flex text-3xl font-cursive  cursor-pointer">
   {navLink.map(({id,link})=>(

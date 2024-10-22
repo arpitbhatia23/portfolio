@@ -99,18 +99,18 @@ const Experince = () => {
         }
     ]
   return (
-    <div className='  w-[100vw]  bg-diagonal-gradient text-white' name="Experince">
+    <div className=' w-[100vw]  bg-diagonal-gradient text-white' name="Experince">
       
-      <div className=' flex justify-center  text-white text-3xl py-4  ' >
+      <div className=' flex justify-center  text-white text-3xl py-4  font-cursive' >
      skills
         </div>
         <div className='flex justify-center'>
-      <div className=' grid grid-cols-3 md:grid-cols-4  gap-x-14 gap-y-8 justify-items-center  items-center py-8' >
+      <div className=' grid grid-cols-4 md:grid-cols-12  gap-x-3 gap-y-8 justify-items-center  items-center py-8' >
         {
             tech.map(({id,image ,text})=>(
                 <Tilt key={id} >
-                <div className={`rounded-xl   flex flex-col items-center justify-center py-3 animate-neon`}>
-                    <img src={image} alt="" className='rounded-xl h-32 w-56 px-2'/>
+                <div className={`rounded-[50%] h-32 w-32  flex flex-col items-center justify-center py-3 `}>
+                    <img src={image} alt="" className='rounded-[50%] w-28 px-8 hover:animate-pulse'/>
                     <p className='text-center text-white'>{text}</p>
 
                 </div>
