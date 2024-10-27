@@ -99,7 +99,7 @@ const Experince = () => {
         }
     ]
   return (
-    <div className=' w-[100vw]  bg-diagonal-gradient text-white' name="Experince">
+    <div className=' w-[100vw]  bg-diagonal-gradient text-white' name="skills">
       
       <div className=' flex justify-center  text-white text-3xl py-4  font-cursive' >
      skills
