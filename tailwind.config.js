@@ -4,7 +4,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],  theme: {
     extend: {
-      fontFamily: {cursive:['Great Vibes']
+      fontFamily: {cursive:['Cinzel ']
       },
       keyframes: {
         neon: {

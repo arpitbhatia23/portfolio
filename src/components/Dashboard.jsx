@@ -51,7 +51,7 @@ function Dashboard() {
         />
       </div>
       <div className="flex flex-col items-center ml-2 md:ml-0">
-        <p className="text-center w-full text-3xl">
+        <p className="text-center w-full text-2xl">
           Hi, my name is Aurpit. I'm a MERN Stack Developer currently, and I love to work on web applications using technologies like:
         </p>
       </div>
